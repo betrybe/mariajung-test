@@ -18,6 +18,14 @@
   width: 200px;
 }
 
+
+.principal {
+  max-width: 10%;
+  float:left;
+}
+
+
+
 .item .item__sku {
   display: none;
 }
