@@ -5,34 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Site de Compras</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <script src="asstes/css/script.js"></script>
+    <script src="asstes/script.js"></script>
 
   </head>
 
   <body>
     <section class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
-      <!-- Só uma imagem -->
-<nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-    <img src="assets/img/shopping_cart.svg" width="30" height="30" alt="">
-  </a>
-</nav>
+        <div class="col-md-12">      
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/shopping_cart.svg" width="30" height="30" alt="">
+            <span>Textinho</span>
+          </a>
+        </nav>
       </div>
       </div>
-      
-      <main class="items">fotos</main>
+
+      <div class="row">
+      <div class="col-md-8">
+        <main class="items">Teste</main>
+      </div>
+      <div class="col-md-4">
       <section class="cart">
         <span class="cart__title">Carrinho de compras</span>
-        <button type="button" class="btn btn-dark">Esvaziar carrinho</button>
-     
+        <button type="button" class="btn btn-dark">Esvaziar carrinho</button>     
         <ol class="cart__items"></ol>
       </section>
+    </div>
+  </div>
     </section>
 
     <!-- JavaScript (Opcional) -->
